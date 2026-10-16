@@ -1,0 +1,31 @@
+ @import "tailwindcss";
+ @keyframes swap-a {
+  0%, 18% { transform: translate(0, 0) rotate(-6deg); }
+  31% { transform: translate(60px, -34px) rotate(0deg); }
+  44%, 68% { transform: translate(120px, 0) rotate(6deg); }
+  81% { transform: translate(60px, 34px) rotate(0deg); }
+  94%, 100% { transform: translate(0, 0) rotate(-6deg); }
+}
+@keyframes swap-b {
+  0%, 18% { transform: translate(0, 0) rotate(6deg); }
+  31% { transform: translate(-60px, 34px) rotate(0deg); }
+  44%, 68% { transform: translate(-120px, 0) rotate(-6deg); }
+  81% { transform: translate(-60px, -34px) rotate(0deg); }
+  94%, 100% { transform: translate(0, 0) rotate(6deg); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.swap-a { animation: swap-a 6s ease-in-out infinite; }
+.swap-b { animation: swap-b 6s ease-in-out infinite; }
+.float { animation: float 5s ease-in-out infinite; }
+.rise { animation: rise 0.6s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .swap-a, .swap-b, .float, .rise { animation: none; }
+}
