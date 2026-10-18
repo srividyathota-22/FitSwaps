@@ -107,7 +107,10 @@ All routes are under `/api`.
 - Courier tracking numbers are typed in by hand; there is no live courier API.
 - Location matching compares cities and does not show distance in kilometres.
 - Chat refreshes every few seconds instead of using real-time sockets.
-- Photos are stored in the database, which suits a demo but not a large platform.
+- Photos are stored in the database, which suits a demo but not a large platform
+
+## Credits
+Photos from [Pexels](https://www.pexels.com)
 
 ## Author
 
