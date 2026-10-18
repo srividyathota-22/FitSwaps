@@ -109,10 +109,6 @@ All routes are under `/api`.
 - Chat refreshes every few seconds instead of using real-time sockets.
 - Photos are stored in the database, which suits a demo but not a large platform.
 
-## Credits
-
-Photos from [Pexels](https://www.pexels.com). Demo product images from the free [DummyJSON](https://dummyjson.com) catalog.
-
 ## Author
 
 Built by Sri Vidya Thota as part of the Unified Mentor Fullstack Web Development internship.
