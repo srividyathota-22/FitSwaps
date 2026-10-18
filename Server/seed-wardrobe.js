@@ -44,6 +44,24 @@ const MY_PHOTOS = {
     title: "Red Chunky Knit Sweater",
     description: "Warm and cosy ribbed knit sweater in a bright red.",
   },
+    "kids_t_shirt.jpg": {
+    section: "Kids", type: "tshirt",
+    title: "Black Cotton Kids T-Shirt",
+    size: "6-7 yrs", condition: "Like New",
+    description: "Soft black round-neck cotton tee, comfortable for everyday wear.",
+  },
+  "kids-dress.jpg": {
+    section: "Kids", type: "shorts",
+    title: "Olive Dungaree Shorts Set",
+    size: "3-4 yrs", condition: "Excellent",
+    description: "Olive linen-look dungaree shorts with button straps and roomy pockets, worn with a white graphic tee.",
+  },
+  "kids_pants.jpg": {
+    section: "Kids", type: "pants",
+    title: "Brown Wide-Leg Pants",
+    size: "8-9 yrs", condition: "Good",
+    description: "Comfortable elastic-waist wide-leg pants in taupe brown, with side pockets.",
+  },
 };
 
 const SECTIONS = { men: "Men", women: "Women", kids: "Kids" };
