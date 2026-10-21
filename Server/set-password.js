@@ -7,7 +7,7 @@ const [email, newPassword] = process.argv.slice(2);
 
 (async () => {
   try {
-    if (!email || !newPassword) throw new Error('Usage: node set-password.js admin@seed.swap  "<new password>"');
+    if (!email || !newPassword) throw new Error('Usage: node set-password.js <email>  "<new password>"');
     if (newPassword.length < 8) throw new Error("Use at least 8 characters.");
 
     await mongoose.connect(process.env.MONGO_URI);
